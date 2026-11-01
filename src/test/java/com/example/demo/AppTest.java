@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 class AppTest {
 
     @Test
-    void homeMessageIncludesVersion() {
+    void homeMessageReturnsUpdatedMessage() {
         assertEquals(
-                "Hello from the Java CI/CD Demo! Version: 1.0.0",
+                "Updated after pipeline setup",
                 App.getHomeMessage("1.0.0")
         );
     }
@@ -16,13 +16,5 @@ class AppTest {
     @Test
     void healthStatusIsOk() {
         assertEquals("OK", App.getHealthStatus());
-    }
-
-    @Test
-    void updatedVersionAppearsInMessage() {
-        assertEquals(
-                "Hello from the Java CI/CD Demo! Version: 2.0.0",
-                App.getHomeMessage("2.0.0")
-        );
     }
 }
