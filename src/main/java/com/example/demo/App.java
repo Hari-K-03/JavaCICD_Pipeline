@@ -9,7 +9,7 @@ import com.sun.net.httpserver.HttpServer;
 public class App {
 
     static String getHomeMessage(String version) {
-        return "Hello from the Java CI/CD Demo! Version: " + version;
+        return "Updated after pipeline setup";
     }
 
     static String getHealthStatus() {
