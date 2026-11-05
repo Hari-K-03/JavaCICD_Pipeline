@@ -8,7 +8,7 @@ import com.sun.net.httpserver.HttpServer;
 
 public class App {
 
-    private static final String API_KEY = "AKIAIOSFODNN7EXAMPLE";
+    private static final String API_KEY = "ABCKABVHBRVWERBVWIRQ41";
     static String getHomeMessage(String version) {
         return "Updated after pipeline setup";
     }
