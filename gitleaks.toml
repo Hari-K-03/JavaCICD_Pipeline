@@ -1,0 +1,7 @@
+[[rules]]
+id = "java-hardcoded-api-key"
+description = "Hardcoded API key in Java source code"
+regex = '''(?i)API_KEY\s*=\s*"([A-Za-z0-9]{20,})"'''
+secretGroup = 1
+keywords = ["API_KEY"]
+entropy = 3.5
