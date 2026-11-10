@@ -8,7 +8,7 @@ class AppTest {
     @Test
     void homeMessageReturnsUpdatedMessage() {
         assertEquals(
-                "Updated after pipeline setup",
+                "Incorrect Application version deployed!",
                 App.getHomeMessage("1.0.0")
         );
     }
